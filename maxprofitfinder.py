@@ -1,8 +1,8 @@
-list=[1,2,3,4,5,6,7,8,9]
+profits=[1,-2,3,-4,-5,6,7,-8,9,10]
 
 key=6
 index=0
-sub_list=list[index:key]
+sub_list=profits[index:key]
 max_profit=0
 sum=0
 month=6
@@ -18,7 +18,7 @@ while(len(sub_list) == key ):
 
   index=index+1
   month=month+1
-  sub_list=list[index:month]
+  sub_list=profits[index:month]
 
 
 
